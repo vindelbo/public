@@ -5,15 +5,15 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#ff479c",
+          "background": "#cacaca",
           "foreground": "#ffffff",
-          "leading_diamond": "\ue0b6",
-          "powerline_symbol": "\ue0b0",
+          "leading_diamond": "",
+          "powerline_symbol": "",
           "properties": {
             "style": "full"
           },
           "style": "diamond",
-          "template": " \ue5ff {{ .Path }} ",
+          "template": " {{ .Path }} ",
           "trailing_diamond": "",
           "type": "path"
         },
