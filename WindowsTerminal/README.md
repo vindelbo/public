@@ -1,5 +1,16 @@
 # DevTools
 #Setup
+
+# Set Powershell to default profile
+
+Remove powershell startup text
+Add "-nologo" to powershell path
+
+![image](https://user-images.githubusercontent.com/6838752/189899279-3075d37c-2a8b-4590-979a-a47b8cb27685.png)
+
+
+
+
 #Install font
 
 #Caskaydia Cove Nerd Font Complete
