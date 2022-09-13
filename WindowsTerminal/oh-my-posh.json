@@ -13,7 +13,7 @@
             "style": "full"
           },
           "style": "diamond",
-          "template": " \ue5ff {{ .Path }} ",
+          "template": "\ue5ff {{ .Path }} ",
           "trailing_diamond": "",
           "type": "path"
         },
