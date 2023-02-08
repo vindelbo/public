@@ -1,0 +1,10 @@
+Fist download all files
+Extract files and open folder with Terminal/PowerShell
+Run command: "Get-ChildItem -Recurse -Include *.xml | SELECT FullName"
+Open in notepad++
+
+Replace the folder path with git raw location:
+
+D:\drawio-libs-review\libs\windows-10-icons.xml -> https://raw.githubusercontent.com/vindelbo/drawio-libs/review\libs\windows-10-icons.xml
+
+Run PowerAutomate script with drawIO open.
