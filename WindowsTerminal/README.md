@@ -8,7 +8,8 @@ Add "-nologo" to powershell path
 
 ![image](https://user-images.githubusercontent.com/6838752/189899279-3075d37c-2a8b-4590-979a-a47b8cb27685.png)
 
-
+# Debug performance with profile
+Measure-script -Path $profile
 
 
 #Install font
