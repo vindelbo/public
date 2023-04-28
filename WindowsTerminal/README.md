@@ -12,9 +12,9 @@ Add "-nologo" to powershell path
 Measure-script -Path $profile
 
 
-#Install font
+# Install font
 
-#Caskaydia Cove Nerd Font Complete
+## Caskaydia Cove Nerd Font Complete
 https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip?WT.mc_id=-blog-scottha
 
 # Set WindowsTerminal To use Caskaydia Cove Nerd Font
@@ -24,12 +24,12 @@ winget install JanDeDobbeleer.OhMyPosh
 # restart shell to reload PATH
 
 
-#Install modul in powershell
+# Install modul in powershell
 Install-Module -Name Terminal-Icons -Repository PSGallery
 Install-Module PSReadLine -AllowPrerelease -Force
 
 
-#Add to powershell profile
+# Add to powershell profile
 # Use custom oh my posh template
 oh-my-posh init pwsh --config https://raw.githubusercontent.com/vindelbo/public/main/WindowsTerminal/oh-my-posh.json | Invoke-Expression
 
