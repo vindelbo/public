@@ -14,7 +14,7 @@ https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileIcons
 
 ### MS build device/user specific settings
 
-C:\Users\NikolajVindelbo\AppData\Local\Microsoft\MSBuild\Current\Imports\Microsoft.Common.props\ImportAfter
+C:\Users\xxx\AppData\Local\Microsoft\MSBuild\Current\Imports\Microsoft.Common.props\ImportAfter
 
 content of 
 Custom.props:
