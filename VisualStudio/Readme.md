@@ -10,3 +10,17 @@ https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisu
 ![image](https://user-images.githubusercontent.com/6838752/230880043-bab07aaa-780c-4445-8648-8fa10c9b445d.png)
 
 https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileIcons
+
+
+### MS build device/user specific settings
+
+C:\Users\NikolajVindelbo\AppData\Local\Microsoft\MSBuild\Current\Imports\Microsoft.Common.props\ImportAfter
+
+content of 
+Custom.props:
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+</Project>
